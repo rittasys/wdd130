@@ -20,4 +20,31 @@
         nav a:hover {
             text-decoration: underline;
         }
+
+        /* Controls the size of the main card images */
+        .card-img {
+            width: 100%;
+            max-width: 250px;  /* Decrease or increase as needed */
+            height: auto;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+        /* Controls the size of the small icon images */
+        .icon {
+            width: 40px;   /* Shrink icon size */
+            height: 40px;
+            display: block;
+            margin: 5px auto;
+        }
+
+        /* Controls the size of the full-width mountains image */
+        .mountains {
+            width: 100%;
+            max-height: 250px;
+            object-fit: cover;
+            display: block;
+            margin-top: 20px;
+        }
+
     </style>
