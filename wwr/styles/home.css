@@ -54,7 +54,7 @@
 
         /* Controls the size of the full-width mountains image */
         .mountains {
-            width: 50%;
+            width: 100%;
             max-height: 250px;
             object-fit: cover;
             display: block;
