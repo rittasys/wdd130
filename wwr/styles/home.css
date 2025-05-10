@@ -2,12 +2,12 @@
         header {
             display: flex;
             align-items: center;
-            padding: 10px;
+            padding: 100px;
         }
 
         header img {
-            height: 60px;
-            margin-right: 20px;
+            height: 160px;
+            margin-right: 120px;
         }
 
         nav a {
