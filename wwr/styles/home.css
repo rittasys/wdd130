@@ -21,14 +21,25 @@
         nav a:hover {
             text-decoration: underline;
         }
-
+        .home-grid {
+            display: flex; /* or flex — keep whatever you're using */
+            gap: 20px;
+            text-align: left; /* Force left-aligned content */
+        }
+        
+        .rivers-card,
+        .camping-card,
+        .rapids-card {
+            text-align: left;
+        }
+        
         /* Controls the size of the main card images */
         .card-img {
             width: 100%;
             max-width: 250px;  /* Decrease or increase as needed */
             height: auto;
             display: block;
-            margin: 0 auto 10px;
+            margin: 0 0 10px 0;
         }
 
         /* Controls the size of the small icon images */
@@ -36,12 +47,12 @@
             width: 40px;   /* Shrink icon size */
             height: 40px;
             display: block;
-            margin: 5px auto;
+            margin: 0 0 5px 0;
         }
 
         /* Controls the size of the full-width mountains image */
         .mountains {
-            width: 100%;
+            width: 50%;
             max-height: 250px;
             object-fit: cover;
             display: block;
