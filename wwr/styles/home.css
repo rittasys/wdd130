@@ -1,5 +1,19 @@
+        #content {
+            max-width: 1600px;
+            margin: 0 auto; /* This centers the content */
+        }
+  
+        #background {
+            background-color: #2B506A;
+            height: 725px;
+        }
 
+        body {
+            background-color: #2B506A ;
+        }
+              
         header {
+            background-color: #2B506A;
             display: flex;
             align-items: center;
             justify-content: flex-start;
@@ -12,15 +26,50 @@
         }
 
         nav a {
-            margin-right: 15px;
+            text-align: center;
             text-decoration: none;
-            color: #007BFF;
+            background-color: #2B506A;
+            color: white ;
             font-weight: bold;
         }
 
         nav a:hover {
+            background-color: #2B506A;
+            color: #B3DEE2;
             text-decoration: underline;
         }
+
+        .book,
+        .join {
+            background-color: #2B506A; 
+            color: white; /* Make sure text is visible */
+            text-decoration: none;
+        }
+
+        .book:hover,
+        .join:hover {
+            background-color: #2B506A; /* Darker blue on hover */
+            color: white;
+        }
+
+        #hero-msg h1,
+        #hero-msg h4 {
+            text-align: center;
+        }
+
+        #hero-img {
+            width: 100%;
+            height: auto;
+        }
+
+        .button-box {
+            text-align: center;
+          }
+          
+          main section {
+            text-align: center;
+          }
+
         .home-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -29,6 +78,11 @@
             text-align: left; /* Applies left alignment for text and inline elements */
         }
         
+        .home-title h4{
+            background-color: #2B506A;
+            color: #2B506A;
+        }
+
         .rivers-card,
         .camping-card,
         .rapids-card {
@@ -46,12 +100,15 @@
 
         /* Controls the size of the small icon images */
         .icon {
-            width: 40px;   /* Shrink icon size */
-            height: 40px;
+            width: 80px;   /* Shrink icon size */
+            height: 80px;
             display: block;
             margin: 0 0 5px 0;
         }
 
+        .logo   {
+            width: 80px;
+        }
         /* Controls the size of the full-width mountains image */
         .mountains {
             width: 100%;
@@ -61,4 +118,41 @@
             margin-top: 20px;
         }
 
-    
+        .msg {
+            background-color: #2B506A;
+          }
+
+        .msg h2 {
+            background-color: #2B506A;
+            color: white;
+        }  
+
+        .msg p {
+            background-color: #2B506A;
+            color: white;
+        }
+
+        footer {
+            background-color: #2B506A;
+            color: white;
+        }  
+
+        footer a {
+            background-color: #2B506A;
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            background-color: #2B506A;
+            color: white;
+            text-decoration: underline;
+        }
+
+        footer p {
+            font-size: 1.2em;
+        }
+
+        footer p a:hover {
+            text-decoration: underline;
+        }
