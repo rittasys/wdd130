@@ -60,7 +60,7 @@
         #hero-msg h1,
         #hero-msg h4 {
             text-align: center;
-            color: #B3DEE2;
+            color: #f5de73;
         }
 
         #hero-msg {
@@ -104,6 +104,9 @@
         
         /* Controls the size of the main card images */
         .card-img {
+            border: 3px solid #f5de73;
+            box-sizing: border-box;
+            border-radius: 8px;    
             width: 100%;
             max-width: 250px;  /* Decrease or increase as needed */
             height: auto;
@@ -113,6 +116,9 @@
 
         /* Controls the size of the small icon images */
         .icon {
+            border: 3px solid #f5de73; /* visible border color */
+            box-sizing: border-box;
+            border-radius: 8px;
             width: 80px;   /* Shrink icon size */
             height: 80px;
             display: block;
