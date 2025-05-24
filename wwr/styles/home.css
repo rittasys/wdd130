@@ -131,6 +131,9 @@
         }
         /* Controls the size of the full-width mountains image */
         .mountains {
+            border: 3px solid #f5de73; /* visible border color */
+            box-sizing: border-box;
+            border-radius: 8px;
             width: 100%;
             max-height: 250px;
             object-fit: cover;
