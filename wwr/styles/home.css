@@ -135,7 +135,7 @@
             border: 3px solid #f5de73; /* visible border color */
             box-sizing: border-box;
             border-radius: 8px;
-            width: 100%;
+            width: 50%;
             max-height: 250px;
             object-fit: cover;
             display: block;
