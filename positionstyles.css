@@ -95,12 +95,14 @@
   width: 100%; 
   height: 100%; 
   background-color: green;
+  grid-column: 1;
   
 } 
 .yellow3 {
   width: 100%; 
   height: 100%; 
   background-color: gold; 
+  grid-column: 2;
 } 
 .blue3 {
   width: 100%;
