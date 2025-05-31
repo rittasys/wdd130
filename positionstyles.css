@@ -199,16 +199,7 @@
   height: 600px;
   margin: 0 auto;
 }
-.red6 {
-  width: 400px; 
-  height: 200px; 
-  background-color: red;
-  z-index: 4;
-  position: absolute;
-  left: 0;
-  top: 0;
-  
-} 
+
 .green6 {
   width: 200px; 
   height: 200px; 
@@ -236,6 +227,16 @@
   justify-self: center;
   align-self: center;
   position: relative;
+} 
+.red6 {
+  width: 400px; 
+  height: 200px; 
+  background-color: red;
+  z-index: 4;
+  position: absolute;
+  left: 0;
+  top: 0;
+  
 } 
 
 
