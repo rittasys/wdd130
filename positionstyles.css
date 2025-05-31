@@ -54,17 +54,25 @@
   grid-column: 2;
   grid-row: 2;
   margin-top: -40px;
-  z-index: 2;
+  z-index: 1.5;
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  grid-column: 3;
+  grid-row: 3;
+  margin-top: -40px;
+  z-index: 3;
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
+  grid-column: 4;
+  grid-row: 4;
+  margin-top: -40px;
+  z-index: 4;
 } 
 /* Activity 3 styles */ 
 .content3 {
