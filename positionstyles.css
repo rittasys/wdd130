@@ -159,7 +159,7 @@
   height: 400px;
   width: 600px;
   margin: 0 auto;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
 }
 .red5 { 
   width: 100%; 
@@ -170,15 +170,18 @@
   width: 100px; 
   height: 100px; 
   background-color: green; 
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
 
 } 
 .yellow5 {
-  width: 100px; 
-  height: 100px; 
+  width: 100%; 
+  height: auto; 
   background-color: gold; 
-  float: left;
-  margin-right: 20px; /* spacing between box and text */
-  margin-bottom: 10px;
+  padding: 20px;
+  position: relative;
+  box-sizing: border-box;
 
 } 
 .blue5 {
