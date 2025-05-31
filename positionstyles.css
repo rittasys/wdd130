@@ -160,6 +160,7 @@
   width: 600px;
   margin: 0 auto;
   font-family: Arial, sans-serif;
+  
 }
 .red5 { 
   width: 100%; 
@@ -170,7 +171,7 @@
   width: 100px; 
   height: 100px; 
   background-color: green; 
-  float: right;
+  float: left;
   margin-left: 20px;
   margin-bottom: 10px;
 
