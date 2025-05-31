@@ -160,6 +160,7 @@
   width: 600px;
   margin: 0 auto;
   font-family: Arial, sans-serif;
+  position: relative;
   
 }
 .red5 { 
@@ -171,17 +172,16 @@
   width: 100px; 
   height: 100px; 
   background-color: green; 
-  float: left;
-  margin-left: 20px;
-  margin-bottom: 10px;
+  position: absolute;
+  left: 20px;
+  top: 100px;
 
 } 
 .yellow5 {
   width: 100%; 
-  height: auto; 
+  height: 200px; 
   background-color: gold; 
   padding: 20px;
-  position: relative;
   box-sizing: border-box;
 
 } 
