@@ -62,7 +62,7 @@
   background-color: gold; 
   grid-column: 3;
   grid-row: 3;
-  margin-top: -40px;
+  margin-top: -80px;
   z-index: 3;
 } 
 .blue2 {
@@ -71,7 +71,7 @@
   background-color: blue; 
   grid-column: 4;
   grid-row: 4;
-  margin-top: -40px;
+  margin-top: -120px;
   z-index: 4;
 } 
 /* Activity 3 styles */ 
