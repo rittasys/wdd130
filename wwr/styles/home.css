@@ -6,6 +6,9 @@
         #background {
             background-color: #2B506A;
             height: 725px;
+            grid-column: 1 / 11;
+            grid-row: 4 / 9;
+            z-index: 0;
         }
 
         body {
@@ -99,12 +102,8 @@
           }
 
         .home-grid {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 30px;
-            padding: 20px;
-            text-align: left; /* Applies left alignment for text and inline elements */
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
         }
         
         .home-title h4{
@@ -112,9 +111,17 @@
             color: white;
         }
 
-        .rivers-card,
-        .camping-card,
+        .rivers-card {
+            grid-column: 2 / 4;
+            grid-row: 2 / 3;
+        }
+        .camping-card {
+            grid-column: 5 / 7;
+            grid-row: 2 / 3;
+        }
         .rapids-card {
+            grid-column: 8 / 10;
+            grid-row: 2 / 3;
             text-align: left;
         }
         
@@ -166,6 +173,8 @@
             object-fit: cover;
             display: block;
             margin-top: 20px;
+            grid-column: 2 / 7;
+            grid-row: 5 / 8;
         }
 
         .msg {
@@ -174,6 +183,8 @@
             padding: 20px;
             max-width: 800px;
             border-radius: 8px;
+            grid-column: 6 / 10;
+            grid-row: 6 / 7;
           }
 
         .msg h2 {
