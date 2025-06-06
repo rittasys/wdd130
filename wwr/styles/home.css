@@ -15,10 +15,8 @@
               
         header {
             background-color: #2B506A;
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            padding: 100px;
+            display: grid;
+            grid-template-columns: 150px auto;
         }
 
         header img {
@@ -27,11 +25,8 @@
         }
 
         nav a {
-            text-align: center;
-            text-decoration: none;
-            background-color: #2B506A;
-            color: white ;
-            font-weight: bold;
+            display: flex;
+            justify-content: space-around;
         }
 
         nav a:hover {
@@ -73,6 +68,12 @@
         #hero-img {
             width: 100%;
             height: auto;
+        }
+
+        #logo_link {
+            padding: 5px;
+            justify-self: center;
+            align-self: center;
         }
 
         .button-box {
