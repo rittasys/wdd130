@@ -27,6 +27,11 @@
             margin-right: 120px;
         }
 
+        nav {
+            display: flex;
+            justify-content: space-around;
+        }
+
         nav a {
             display: flex;
             justify-content: space-around;
