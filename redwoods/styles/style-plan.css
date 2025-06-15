@@ -41,7 +41,7 @@ img {
   margin: 0 auto;
   max-width: 90%;
   height: auto;
-  
+
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -149,12 +149,12 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-page2 {
+.sm-poaching {
   grid-area: page2;
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-page3 {
+.sm-prevention {
   grid-area: page3;
   background-color: #ccc;
   line-height: 3em;
