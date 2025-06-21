@@ -320,6 +320,18 @@
     max-width: 500px;
   }
   
+  .hero img {
+    border: 3px solid #f5de73;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #6f7364;
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
   .content .image img {
     max-width: 100%;
     height: auto;
