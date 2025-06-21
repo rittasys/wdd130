@@ -29,7 +29,9 @@
 
         nav {
             display: flex;
-            justify-content: space-around;
+            justify-content: flex-end; /* align right */
+            gap: 30px; /*space between links*/
+            padding-right: 40px; /*space on right*/
         }
 
         nav a {
