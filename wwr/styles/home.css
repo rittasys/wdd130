@@ -320,8 +320,16 @@
     max-width: 500px;
   }
   
+  .content .text h2 {
+    color: #f5de73;
+  }
+
+  .content .text p {
+    color: #f5de73;
+  }
+  
   .hero img {
-    border: 3px solid #f5de73;
+    border: 3px solid #eee;
     box-sizing: border-box;
     box-shadow: 5px 5px 10px #6f7364;
     border-radius: 8px;
