@@ -1,4 +1,81 @@
-/* Logo styles */
+ /* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato&display=swap');
+
+/* Root Variables */
+:root {
+  /* Fonts */
+  --heading-font: "Playfair Display", serif;
+  --paragraph-font: "Lato", Helvetica, sans-serif;
+
+  /* Color Palette */
+  --primary-color: #a3b18a;
+  --secondary-color: #d9ae94;
+  --accent1-color: #fefae0;
+  --accent2-color: #588157;
+
+  /* Text Colors */
+  --headline-color-on-white: #588157;
+  --headline-color-on-color: white;
+  --paragraph-color-on-white: #588157;
+  --paragraph-color-on-color: white;
+
+  /* Backgrounds */
+  --paragraph-background-color: #a3b18a;
+
+  /* Navigation */
+  --nav-link-color: #588157;
+  --nav-background-color: #d9ae94;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #588157;
+}
+
+/* General Page Setup */
+body {
+  margin: 0;
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color-on-white);
+  background-color: var(--accent1-color);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+  margin-top: 0.5em;
+}
+
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color-on-white);
+  line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+  background-color: var(--nav-background-color);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--nav-link-color);
+  font-weight: bold;
+  margin: 0 0.5rem;
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+ 
+ /* Logo styles */
 .site-logo {
     height: 80px;
     width: auto;
