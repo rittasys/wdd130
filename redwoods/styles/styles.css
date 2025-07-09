@@ -199,6 +199,17 @@ nav a {
   background-color: rgba(0,0,0,0.4);
 }
 
+.poaching-page .prev {
+  left: 20px; /* Push away from left edge */
+  border-radius: 3px 0 0 3px;
+}
+
+.poaching-page .next {
+  right: 20px; /* Push away from right edge */
+  border-radius: 3px 0 0 3px;
+}
+
+
 /* Position the "next button" to the right */
 .poaching-page .next {
   right: 0;
