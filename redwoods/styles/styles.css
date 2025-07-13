@@ -121,6 +121,17 @@ nav a {
     color: var(--headline-color-on-color);
   }
   
+  /*prevention page hero img*/
+  .prevention-page .hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0;
+  }
+  
   /* Content Section */
   .content {
     display: flex;
