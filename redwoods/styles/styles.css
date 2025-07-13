@@ -194,7 +194,7 @@ nav a {
   /* prevention bottom photo */
   .image-container2 {
     flex: 1 1 300px;
-    max-width: 400px;
+    max-width: 600px;
     height: auto;
     justify-content: center;
     padding: 1rem;
