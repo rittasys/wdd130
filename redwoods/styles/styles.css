@@ -181,6 +181,7 @@ nav a {
     max-width: 800px;
     justify-content: center;
     padding: 1rem;
+    gap: 1rem;
   }
   
   .burl-img {
@@ -198,6 +199,7 @@ nav a {
     height: auto;
     justify-content: center;
     padding: 1rem;
+    gap: 1rem;
   }
   
   .tall-img {
